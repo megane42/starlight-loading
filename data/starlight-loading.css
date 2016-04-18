@@ -1,0 +1,13 @@
+.starlight-back {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  z-index: 1500;
+  position: fixed;
+}
+
+.starlight-back.hide {
+  display: none;
+}
