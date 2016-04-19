@@ -1,20 +1,35 @@
-var starlight_show = function() {
+// Define as a global param in order to make it disconnectable.
+var observer = new MutationObserver(function (mutation){
+    // When pace-progress's "data-progress-text" is mutated, the following code runs.
+    var progressRatio = mutation[0].target.getAttribute("data-progress-text");
+    document.getElementsByClassName("starlight-ratio")[0].textContent = progressRatio;
+});
+
+Pace.on('start', function() {
     var wrapper = document.createElement('div');
-    var back = document.createElement('div');
-    var logo = document.createElement('div');
+    var back    = document.createElement('div');
+    var logo    = document.createElement('div');
+    var ratio   = document.createElement('div');
+
     wrapper.className = 'starlight-loading';
-    back.className = 'starlight-back';
-    logo.className = 'starlight-logo';
+    back.className    = 'starlight-back';
+    logo.className    = 'starlight-logo';
+    ratio.className   = 'starlight-ratio';
+
+    // check if pace-progress's "data-progress-text" is mutated by pace.js
+    var progressElem = document.getElementsByClassName("pace-progress")[0];
+    observer.observe(progressElem, {attributes: true, attributeFilter: ["data-progress-text"]});
+
     wrapper.appendChild(back);
     wrapper.appendChild(logo);
+    wrapper.appendChild(ratio);
     document.body.appendChild(wrapper);
-}
+});
 
-var starlight_hide = function() {
+Pace.on('done', function() {
     var wrapper = document.getElementsByClassName("starlight-loading")[0];
     wrapper.classList.add("hide");
-}
+    observer.disconnect();
+});
 
-Pace.on('start', starlight_show);
-Pace.on('done',  starlight_hide);
 Pace.start();

@@ -8,6 +8,14 @@
   position: fixed;
 }
 
+.starlight-ratio {
+  bottom: 130px;
+  left: 240px;
+  z-index: 2500;
+  position: fixed;
+  color: #fff;
+}
+
 .starlight-loading.hide {
   display: none;
 }
