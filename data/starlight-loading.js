@@ -1,19 +1,20 @@
-var show = function() {
+var starlight_show = function() {
+    var wrapper = document.createElement('div');
     var back = document.createElement('div');
     var logo = document.createElement('div');
+    wrapper.className = 'starlight-loading';
     back.className = 'starlight-back';
     logo.className = 'starlight-logo';
-    document.body.appendChild(back);
-    document.body.appendChild(logo);
+    wrapper.appendChild(back);
+    wrapper.appendChild(logo);
+    document.body.appendChild(wrapper);
 }
 
-var hide = function() {
-    var back = document.getElementsByClassName("starlight-back")[0];
-    var logo = document.getElementsByClassName("starlight-logo")[0];
-    back.classList.add("hide");
-    logo.classList.add("hide");
+var starlight_hide = function() {
+    var wrapper = document.getElementsByClassName("starlight-loading")[0];
+    wrapper.classList.add("hide");
 }
 
-Pace.on('start', show);
-Pace.on('done',  hide);
+Pace.on('start', starlight_show);
+Pace.on('done',  starlight_hide);
 Pace.start();

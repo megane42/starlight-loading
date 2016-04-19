@@ -8,6 +8,6 @@
   position: fixed;
 }
 
-.starlight-back.hide {
+.starlight-loading.hide {
   display: none;
 }
