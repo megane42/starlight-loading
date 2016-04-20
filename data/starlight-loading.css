@@ -3,17 +3,27 @@
   left: 0px;
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #1d1d1d;
   z-index: 1500;
   position: fixed;
 }
 
-.starlight-ratio {
-  bottom: 130px;
-  left: 240px;
-  z-index: 2500;
+.starlight-panel {
+  bottom: 30px;
+  left: 50px;
+  z-index: 1600;
   position: fixed;
-  color: #fff;
+}
+
+.starlight-ratio {
+  bottom: 116px;
+  left: 355px;
+  z-index: 1700;
+  position: fixed;
+  color: #1d1d1d;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .starlight-loading.hide {
