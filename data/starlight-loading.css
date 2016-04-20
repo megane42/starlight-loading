@@ -11,6 +11,8 @@
 .starlight-panel {
   bottom: 30px;
   left: 50px;
+  width: 479px;
+  height: 139px;
   z-index: 1600;
   position: fixed;
 }
