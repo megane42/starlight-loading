@@ -18,9 +18,18 @@ Pace.on('start', function() {
     panel.className   = 'starlight-panel';
     ratio.className   = 'starlight-ratio';
 
-    var panelImg = document.createElement('img');
-    panelImg.src = starlightOption.panelUrl;
-    panel.appendChild(panelImg);
+    var message_up = document.createElement('p');
+    var message_dn = document.createElement('p');
+    message_up.className = 'message-up';
+    message_dn.className = 'message-down';
+    message_up.appendChild(document.createTextNode('データダウンロード中'));
+    message_dn.appendChild(document.createTextNode('※通信環境の良い所で実行してください'));
+    panel.appendChild(message_up);
+    panel.appendChild(message_dn);
+
+    var progress_border = document.createElement('div');
+    progress_border.className = 'progress-border';
+    panel.appendChild(progress_border);
 
     // check if pace-progress's "data-progress-text" is mutated by pace.js
     var progressElem = document.getElementsByClassName("pace-progress")[0];
