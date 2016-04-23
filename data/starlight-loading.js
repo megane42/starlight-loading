@@ -31,6 +31,10 @@ Pace.on('start', function() {
     progress_border.className = 'progress-border';
     panel.appendChild(progress_border);
 
+    var loading = document.createElement('p');
+    loading.appendChild(document.createTextNode('Now Loading...'));
+    logo.appendChild(loading);
+
     // check if pace-progress's "data-progress-text" is mutated by pace.js
     var progressElem = document.getElementsByClassName("pace-progress")[0];
     observer.observe(progressElem, {attributes: true, attributeFilter: ["data-progress-text"]});

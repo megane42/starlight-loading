@@ -20,11 +20,14 @@
     left: 50px;
     box-shadow: 4px 4px 10px #090909;
 }
+
 .starlight-panel p {
     color: #363636;
-    font-weight: bold;
     font-size: 17px;
+    font-family: 'M+ 1p bold';
+    transform: rotate(0.028deg);
 }
+
 .starlight-panel .message-up {
     position: relative;
     top: 13px;
@@ -49,14 +52,27 @@
 }
 
 .starlight-ratio {
-    bottom: 116px;
+    bottom: 115px;
     left: 355px;
     z-index: 1700;
     position: fixed;
     color: #363636;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'M+ 1p bold';
+    /* for anti alias */
+    transform: rotate(0.028deg);
+}
+
+.starlight-logo p {
+    bottom: 22px;
+    right: 100px;
+    margin: 0px;
+    z-index: 1600;
+    position: fixed;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'M+ 1p bold';
 }
 
 .starlight-loading.hide {
