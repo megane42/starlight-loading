@@ -1,3 +1,13 @@
+.starlight-loading div {
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+.starlight-loading p {
+    margin: 0px;
+    box-sizing: content-box;
+}
+
 .starlight-back {
     top: 0px;
     left: 0px;
@@ -25,19 +35,20 @@
     color: #363636;
     font-size: 17px;
     font-family: 'M+ 1p bold';
+    line-height: 1.4em;
     transform: rotate(0.028deg);
 }
 
 .starlight-panel .message-up {
     position: relative;
-    top: 13px;
+    top: 30px;
     left: 128px;
 }
 
 .starlight-panel .message-down {
     text-align: center;
     position: relative;
-    top: 24px;
+    top: 58px;
 }
 
 .starlight-panel .progress-border {
@@ -60,6 +71,7 @@
     font-size: 16px;
     font-weight: bold;
     font-family: 'M+ 1p bold';
+    line-height: 1.6em;
     /* for anti alias */
     transform: rotate(0.028deg);
 }
@@ -67,12 +79,12 @@
 .starlight-logo p {
     bottom: 22px;
     right: 100px;
-    margin: 0px;
     z-index: 1600;
     position: fixed;
     color: #fff;
     font-size: 40px;
     font-family: 'M+ 1p bold';
+    line-height: 1.4em;
 }
 
 .starlight-loading.hide {
