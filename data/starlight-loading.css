@@ -40,6 +40,7 @@
 }
 
 .starlight-panel .message-up {
+    text-align: left;
     position: relative;
     top: 30px;
     left: 128px;
