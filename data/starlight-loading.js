@@ -8,15 +8,18 @@ var observer = new MutationObserver(function (mutation){
 Pace.on('start', function() {
     var wrapper = document.createElement('div');
     var back    = document.createElement('div');
-    var logo    = document.createElement('div');
+    var banner  = document.createElement('div');
     var panel   = document.createElement('div');
     var ratio   = document.createElement('div');
 
     wrapper.className = 'starlight-loading';
     back.className    = 'starlight-back';
-    logo.className    = 'starlight-logo';
+    banner.className  = 'starlight-banner';
     panel.className   = 'starlight-panel';
     ratio.className   = 'starlight-ratio';
+
+    // --------------------------------------------------
+    // Setup starlight-panel
 
     var message_up = document.createElement('p');
     var message_dn = document.createElement('p');
@@ -31,16 +34,25 @@ Pace.on('start', function() {
     progress_border.className = 'progress-border';
     panel.appendChild(progress_border);
 
-    var loading = document.createElement('p');
-    loading.appendChild(document.createTextNode('Now Loading...'));
-    logo.appendChild(loading);
+    // --------------------------------------------------
+    // Setup starlight-banner
+
+    var nowLoading = document.createElement('p');
+    nowLoading.appendChild(document.createTextNode('Now Loading...'));
+    banner.appendChild(nowLoading);
+
+    // --------------------------------------------------
+    // Setup starlight-ratio
 
     // check if pace-progress's "data-progress-text" is mutated by pace.js
     var progressElem = document.getElementsByClassName("pace-progress")[0];
     observer.observe(progressElem, {attributes: true, attributeFilter: ["data-progress-text"]});
 
+    // --------------------------------------------------
+    // Integrate
+
     wrapper.appendChild(back);
-    wrapper.appendChild(logo);
+    wrapper.appendChild(banner);
     wrapper.appendChild(panel);
     wrapper.appendChild(ratio);
     document.body.appendChild(wrapper);
