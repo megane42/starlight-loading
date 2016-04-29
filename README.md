@@ -1,6 +1,6 @@
 # Starlight Loading
 
-WIP
+![demo](doc/demo.gif)
 
 ## For Firefox User
 

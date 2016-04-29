@@ -1,10 +1,12 @@
 .starlight-loading div {
     margin: 0px;
+    padding: 0px;
     box-sizing: content-box;
 }
 
 .starlight-loading p {
     margin: 0px;
+    padding: 0px;
     box-sizing: content-box;
 }
 
