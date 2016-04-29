@@ -42,14 +42,14 @@
 .starlight-panel .message-up {
     text-align: left;
     position: relative;
-    top: 30px;
+    top: 32px;
     left: 128px;
 }
 
 .starlight-panel .message-down {
     text-align: center;
     position: relative;
-    top: 58px;
+    top: 63px;
 }
 
 .starlight-panel .progress-border {
@@ -64,7 +64,7 @@
 }
 
 .starlight-ratio {
-    bottom: 115px;
+    bottom: 114px;
     left: 355px;
     z-index: 1700;
     position: fixed;
@@ -96,9 +96,11 @@
   bottom: 13px;
   right: 0;
   z-index: 1600;
-  position: absolute;
-  width: 75.1px;
+  position: fixed;
+  width: 104.6px;
+  height: 95.4px;
   margin: 20px;
+  background: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22104.6px%22%20height%3D%2295.4px%22%20viewBox%3D%220%200%20104.6%2095.4%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.st0%7Bfill%3A%23FFFFFF%3B%7D%3C%2Fstyle%3E%3Cg%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M69.5%2C28c-7.7%2C0-16.2%2C3.7-20.2%2C11.8l-0.9%2C2C46%2C47.1%2C46.1%2C52%2C46.1%2C53.1c0.4%2C10.5%2C7.6%2C12.9%2C9%2C22c1.6%2C10-5.6%2C17.2-6.2%2C20.2c0%2C0%2C0.1%2C0.1%2C0.5%2C0.1c0.4%2C0%2C0.8-0.1%2C1.1-0.3c1.6-1%2C39.9-24.7%2C39.9-47.8C90.4%2C34.6%2C79.9%2C28%2C69.5%2C28z%20M71.7%2C61.1c-1.4-11.1-2.4-12.5-11.5-14.1c9.1-1.7%2C10.2-3%2C11.5-14.1c1.4%2C11.1%2C2.4%2C12.5%2C11.5%2C14.1C74.1%2C48.6%2C73%2C49.9%2C71.7%2C61.1z%20M62.4%2C72.6c-0.9-7.3-1.6-8.1-7.5-9.2c5.9-1.1%2C6.6-2%2C7.5-9.2c0.9%2C7.3%2C1.6%2C8.1%2C7.5%2C9.2C64%2C64.5%2C63.3%2C65.4%2C62.4%2C72.6z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M8.6%2C52.8l-5.3%2C4.7c-0.4%2C0.4-0.1%2C1.1%2C0.5%2C1l5.9-1.3C9.2%2C55.8%2C8.8%2C54.3%2C8.6%2C52.8z%22%2F%3E%20%3Cpath%20class%3D%22st0%22%20d%3D%22M8.3%2C49.1c0-1.5%2C0.1-2.9%2C0.4-4.3l-8.3%2C1.4c-0.6%2C0.1-0.7%2C0.9-0.1%2C1.1l8%2C3.4C8.3%2C50.1%2C8.3%2C49.6%2C8.3%2C49.1z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M52.2%2C75.6c-0.5-3.5-2.1-5.8-3.9-8.5c-2.3-3.4-4.9-7.3-5.2-13.9c-0.1-2.4%2C0.1-7.3%2C2.6-12.7L46%2C40c-3.8-6.5-10.8-8.8-16.4-8.8c-5.6%2C0-10.4%2C1.9-13.7%2C5.6c-2.9%2C3.2-4.6%2C7.7-4.6%2C12.3c0%2C9.4%2C6.6%2C19.9%2C19%2C30.3c6.9%2C5.8%2C13.7%2C9.9%2C17.2%2C11.9c0.2-0.3%2C0.3-0.6%2C0.5-0.9C50.2%2C86.8%2C53.1%2C81.8%2C52.2%2C75.6z%20M21.7%2C48.7c-1.6%2C0-2.9-1.5-2.9-3.3c0-1.8%2C1.3-3.3%2C2.9-3.3c1.6%2C0%2C2.9%2C1.5%2C2.9%2C3.3C24.6%2C47.2%2C23.3%2C48.7%2C21.7%2C48.7z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M57.1%2C16.1c-1.1%2C0-2%2C0.9-2%2C2c0%2C0.9%2C0.6%2C1.6%2C1.4%2C1.9c-0.4%2C1.2-1.6%2C4.2-4.4%2C4.2c-2.9%2C0-4.1-4.5-4.4-6.1c1.1-0.3%2C1.9-1.2%2C1.9-2.4c0-1.4-1.1-2.5-2.5-2.5c-1.4%2C0-2.5%2C1.1-2.5%2C2.5c0%2C1.2%2C0.8%2C2.2%2C1.9%2C2.4c-0.3%2C1.5-1.5%2C6.1-4.4%2C6.1c-2.9%2C0-4-3.1-4.4-4.3c0.8-0.3%2C1.4-1%2C1.4-1.9c0-1.1-0.9-2-2-2c-1.1%2C0-2%2C0.9-2%2C2c0%2C1%2C0.7%2C1.8%2C1.6%2C2l1.9%2C10.8c0%2C0.2%2C0.2%2C0.4%2C0.5%2C0.4h16c0.2%2C0%2C0.4-0.2%2C0.5-0.4l2-10.7c0.9-0.2%2C1.6-1%2C1.6-1.9C59.1%2C17%2C58.2%2C16.1%2C57.1%2C16.1z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat;
   -webkit-animation: spinner 2s infinite linear;
   -moz-animation: spinner 2s infinite linear;
   -o-animation: spinner 2s infinite linear;
