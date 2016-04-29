@@ -2,6 +2,14 @@
 
 WIP
 
+## For Firefox User
+
+### Caveat
+
+I DO NOT assure that Starlight Loading works on every site without problems.
+
+You should disable Starlight Loading addon when you use some important website.
+
 ## For Web M@ster
 
 You can introduce Starlight Loading into your website like this:
@@ -27,7 +35,7 @@ The above sample is equivarent to the following:
   ...
 ```
 
-## For Developer
+## For Contributor
 
 ### Install
 
@@ -44,3 +52,16 @@ The above sample is equivarent to the following:
 
 * `$ npm install jpm --global`
 * `$ jpm build` or `$ jpm run`
+
+## Credits
+
+* Pace.js : http://github.hubspot.com/pace/docs/welcome/
+* M+ Fonts : https://mplus-fonts.osdn.jp/
+* Loading Icon : @mikeda3
+* Conversely, Starlight Loading is not endorsed by nor affiliated with BANDAI NAMCO.
+
+## Author
+
+* megane42
+    * https://twitter.com/tsdnm
+    * https://deresute.me/582302781
