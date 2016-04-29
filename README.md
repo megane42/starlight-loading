@@ -24,7 +24,7 @@
 
 ### Caveat
 
-* I DO NOT assure that Starlight Loading works on every site without problems.
+* I **DO NOT** assure that Starlight Loading works on every site without problems.
     * You should disable Starlight Loading addon when you use some important website.
 
 ## For Web M@ster
@@ -57,7 +57,7 @@ The above sample is equivarent to the following:
   ...
 ```
 
-* See also: [Build JS & CSS](#build-js-&-css)
+* See also: [Build JS & CSS](#build-js--css)
 
 ## For Contributor
 
