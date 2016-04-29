@@ -1,10 +1,16 @@
 # Starlight Loading
 
+> Anytime, Anywhere with Cinderella.
+
 ![demo](doc/demo.gif)
 
-## For Firefox User
+* Starlight Loading is a set of Firefox Addon and Javascript Component.
+* If you are a Firefox user:
+    * You can see a starry loading screen whenever you open a website.
+* If you are a web master:
+    * You can introduce a starry loading screen into your website.
 
-You can see a starry loading screen whenever you open a website.
+## For Firefox User
 
 ### Install
 
@@ -16,8 +22,6 @@ FIXME
     * You should disable Starlight Loading addon when you use some important website.
 
 ## For Web M@ster
-
-You can introduce a starry loading screen into your website.
 
 ### Install
 
