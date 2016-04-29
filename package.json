@@ -12,5 +12,17 @@
   "license": "MIT",
   "keywords": [
     "jetpack"
-  ]
+  ],
+  "devDependencies": {
+    "clean-css": "^3.4.12",
+    "posix-cat": "^1.1.1",
+    "uglifyjs": "^2.4.10"
+  },
+  "scripts": {
+    "cat-js"    : "cat data/pace-option.js data/pace.min.js data/starlight-loading.js",
+    "cat-css"   : "cat data/mplus-1p-bold-sub-woff.css data/pace.css data/starlight-loading.css",
+    "build-js"  : "npm run -s cat-js  | uglifyjs --compress --mangle - -o starlight-loading.min.js",
+    "build-css" : "npm run -s cat-css | cleancss -o starlight-loading.min.css",
+    "build"     : "npm run build-js & npm run build-css"
+  }
 }
