@@ -23,6 +23,6 @@
     "cat-css"   : "cat data/mplus-1p-bold-sub-woff.css data/pace.css data/starlight-loading.css",
     "build-js"  : "npm run -s cat-js  | uglifyjs --compress --mangle - -o starlight-loading.min.js",
     "build-css" : "npm run -s cat-css | cleancss -o starlight-loading.min.css",
-    "build"     : "npm run build-js & npm run build-css"
+    "build"     : "npm run build-js && npm run build-css"
   }
 }

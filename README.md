@@ -73,7 +73,7 @@ FIXME
 
 * Pace.js : http://github.hubspot.com/pace/docs/welcome/
 * M+ Fonts : https://mplus-fonts.osdn.jp/
-* Loading Icon : @mikeda3
+* Heart Icon & some CSS advice : [@mikeda3](https://github.com/mikeda3)
 * Conversely, Starlight Loading is not endorsed by nor affiliated with BANDAI NAMCO.
 
 ## Author
