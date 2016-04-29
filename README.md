@@ -4,7 +4,7 @@
 
 ![demo](doc/demo.gif)
 
-* Starlight Loading is a set of Firefox Addon and Javascript Component.
+* **Starlight Loading** is a set of Firefox Addon and Javascript Component.
 * If you are a Firefox user:
     * You can see a starry loading screen whenever you open a website.
 * If you are a web master:
@@ -14,7 +14,13 @@
 
 ### Install
 
-FIXME
+* Download [starlight_loading-0.0.1-fx+an.xpi](starlight_loading-0.0.1-fx+an.xpi)
+* Drag & drop the xpi file into Firefox
+
+### Uninstall
+
+* Push `Ctrl + Shift + A`
+* Click `Disable` or `Remove`
 
 ### Caveat
 
@@ -50,6 +56,8 @@ The above sample is equivarent to the following:
   <script src="data/starlight-loading.js"></script>
   ...
 ```
+
+* See also: [Build JS & CSS](#build-js-&-css)
 
 ## For Contributor
 
