@@ -6,19 +6,31 @@
     box-shadow: 0 10px 6px -6px #777;
 }
 
-body {
+.container {
+    width: 80%;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 1.4em;
     text-align: center
 }
 
 h1, h2, h3 {
-    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
 h1 {
     font-size: 3em;
     color: #ff66cc;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h3 {
+    margin-bottom: 0.3em;
 }
 
 a {
@@ -27,6 +39,10 @@ a {
 
 .fa {
     margin-right: 3px;
+}
+
+.warn {
+    color: #ff66cc;
 }
 
 li {
