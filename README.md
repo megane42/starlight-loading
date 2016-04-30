@@ -14,7 +14,7 @@
 
 ### Install
 
-* Download [starlight_loading-0.0.1-fx+an.xpi](starlight_loading-0.0.1-fx+an.xpi)
+* Download [starlight_loading-latest.xpi](starlight_loading-latest.xpi)
 * Drag & drop the xpi file into Firefox
 
 ### Uninstall
@@ -25,7 +25,7 @@
 ### Caveat
 
 * I **DO NOT** assure that Starlight Loading works on every site without problems.
-    * You should disable Starlight Loading addon when you use some important website.
+    * I cannot be responsible for any trouble caused by using this add-on.
 
 ## For Web M@ster
 
@@ -59,6 +59,11 @@ The above sample is equivarent to the following:
 
 * See also: [Build JS & CSS](#build-js--css)
 
+### Supported Browsers
+
+* Relatively recent browsers
+* Smartphones are NOT supported
+
 ## For Contributor
 
 ### Install
@@ -83,8 +88,8 @@ FIXME
 
 ## Credits
 
-* Pace.js : http://github.hubspot.com/pace/docs/welcome/
-* M+ Fonts : https://mplus-fonts.osdn.jp/
+* Progress Bar: [Pace.js](http://github.hubspot.com/pace/docs/welcome/)
+* Web Font: [M+ Fonts](https://mplus-fonts.osdn.jp/)
 * Heart Icon & some CSS advice : [@mikeda3](https://github.com/mikeda3)
 * Conversely, Starlight Loading is not endorsed by nor affiliated with BANDAI NAMCO.
 
