@@ -49,3 +49,16 @@ li {
     margin-left: -1.5em;
     list-style: none;
 }
+
+.socialWrap {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.socialWrap div {
+    display: inline-block;
+}
+
+.fb_iframe_widget > span {
+    vertical-align: baseline !important;
+}

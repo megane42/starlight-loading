@@ -1,19 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
-    <title>Starlight Loading</title>
+    <title>Starlight Loading - Firefox Add-on and Javascript Component</title>
     <meta charset="utf-8">
     <meta name="author" content="megane42">
     <meta name="description" content="Starlight Loading is a set of Firefox Add-on and Javascript Component.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Starlight Loading - Firefox Add-on and Javascript Component" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://starlight.tsudanuma-studio.net/" />
+    <meta property="og:image" content="http://starlight.tsudanuma-studio.net/doc/demo.gif" />
+    <meta property="fb:app_id" content="713776632096092" />
     <link rel="stylesheet" href="../starlight-loading.min.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:100,300'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../share-button.min.css">
     <link rel="stylesheet" href="../gh-pages.css">
+    <script src="../share-button.min.js"></script>
     <script src="../starlight-loading.min.js"></script>
   </head>
   <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=713776632096092"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="container">
       <h1>Starlight Loading</h1>
       <div class="demo">
@@ -50,6 +61,18 @@
         <li>Starlight Loading is not endorsed by nor affiliated with BANDAI NAMCO.</li>
         <li>License: MIT</li>
       </ul>
+
+      <div class="socialWrap">
+        <!-- twitter -->
+        <div><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+        <!-- facebook -->
+        <div class="fb-like" data-href="http://starlight.tsudanuma-studio.net/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+        <!-- github -->
+        <div><a aria-label="Star megane42/starlight-loading on GitHub" data-count-aria-label="# stargazers on GitHub" data-count-api="/repos/megane42/starlight-loading#stargazers_count" data-count-href="/megane42/starlight-loading/stargazers" href="https://github.com/megane42/starlight-loading" class="github-button">Star</a></div>
+        <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+      </div>
+
     </div>
   </body>
 </html>
