@@ -68,4 +68,7 @@ Pace.on('done', function() {
     observer.disconnect();
 });
 
-Pace.start();
+// support no smartphones
+if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+    Pace.start();
+}
