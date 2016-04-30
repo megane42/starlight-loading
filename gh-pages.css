@@ -1,3 +1,35 @@
 .demo img{
     width: 680px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    text-align: center
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff66cc;
+}
+
+a {
+    color: #ff66cc;
+}
+
+.fa {
+    margin-right: 3px;
+}
+
+li {
+    margin-left: -1.5em;
+    list-style: none;
 }
