@@ -42,6 +42,8 @@
 }
 
 .starlight-panel .message-up {
+    margin: 0px;
+    padding: 0px;
     text-align: left;
     position: relative;
     top: 32px;
@@ -49,6 +51,8 @@
 }
 
 .starlight-panel .message-down {
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     position: relative;
     top: 63px;
