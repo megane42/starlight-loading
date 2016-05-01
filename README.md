@@ -4,23 +4,17 @@
 
 ![demo](doc/demo.gif)
 
-* **Starlight Loading** is a set of Firefox Addon and Javascript Component.
-* If you are a Firefox user:
+* **Starlight Loading** is a set of Firefox / Chrome Addon and Javascript Component.
+* If you are a Firefox / Chrome user:
     * You can see a starry loading screen whenever you open a website.
 * If you are a web master:
     * You can introduce a starry loading screen into your website.
 
-## For Firefox User
+## For Firefox / Chrome User
 
 ### Install
 
-* Download [starlight_loading-latest.xpi](starlight_loading-latest.xpi)
-* Drag & drop the xpi file into Firefox
-
-### Uninstall
-
-* Push `Ctrl + Shift + A`
-* Click `Disable` or `Remove`
+* Install add-on from http://starlight.tsudanuma-studio.net/
 
 ### Caveat
 
@@ -61,7 +55,7 @@ The above sample is equivarent to the following:
 
 ### Supported Browsers
 
-* Relatively recent browsers
+* Recent browsers
 * Smartphones are NOT supported
 
 ## For Contributor
@@ -76,11 +70,18 @@ The above sample is equivarent to the following:
 
 * `$ npm install`
 * `$ npm run build`
+    * Sometime it doesn't work well...
 
 ### Build & Run as a Firefox Addon
 
 * `$ npm install jpm --global`
-* `$ jpm build` or `$ jpm run`
+* `$ jpm run`
+
+### Build & Run as a Chrome Addon
+
+* Open `chrome://settings/` in Chrome
+* Click Developer mode > Load unpacked extensions...
+* Select starlight-loading directory
 
 ### How does it works?
 
