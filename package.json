@@ -1,10 +1,14 @@
 {
   "title": "Starlight Loading",
   "name": "starlight-loading",
-  "version": "0.0.3",
-  "description": "Anytime, Anywhere with Cinderella.",
+  "version": "0.1.1",
+  "description": "Starlight Stage Load Screen Emulator",
   "main": "index.js",
   "author": "megane42",
+  "icon": "resource://starlight-loading/data/icon48.png",
+  "homepage": "http://starlight.tsudanuma-studio.net/",
+  "updateURL": "https://github.com/megane42/starlight-loading/blob/update-test/starlight-loading-latest.update.rdf?raw=true",
+  "updateLink": "https://github.com/megane42/starlight-loading/blob/update-test/starlight_loading-latest.xpi?raw=true",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
