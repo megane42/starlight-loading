@@ -26,11 +26,11 @@ h1 {
 }
 
 h2 {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 h3 {
-    margin-bottom: 0.3em;
+    margin: 0.3em 0;
 }
 
 a {
@@ -44,6 +44,27 @@ a {
 .warn {
     color: #ff66cc;
 }
+
+.gist {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pure-button {
+    width: 280px;
+}
+
+@media screen and (max-width: 35.5em){
+    .pure-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .gist {
+        width: 100%;
+    }
+}
+
 
 li {
     margin-left: -1.5em;
