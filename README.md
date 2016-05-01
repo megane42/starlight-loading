@@ -88,9 +88,9 @@ FIXME
 
 ## Credits
 
-* Progress Bar: [Pace.js](http://github.hubspot.com/pace/docs/welcome/)
-* Web Font: [M+ Fonts](https://mplus-fonts.osdn.jp/)
-* Heart Icon & some CSS advice : [@mikeda3](https://github.com/mikeda3)
+* Progress bar: [Pace.js](http://github.hubspot.com/pace/docs/welcome/)
+* Web font: [M+ Fonts](https://mplus-fonts.osdn.jp/)
+* Heart icon & some css advice : [@mikeda3](https://github.com/mikeda3)
 * Conversely, Starlight Loading is not endorsed by nor affiliated with BANDAI NAMCO.
 
 ## Author
