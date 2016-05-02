@@ -6,7 +6,7 @@
   -moz-user-select: none;
   user-select: none;
 
-  z-index: 2000;
+  z-index: 20000;
   position: fixed;
   left: 82px;
   bottom: 95px;
@@ -32,7 +32,7 @@
   transform: translate3d(0, 0, 0);
 
   position: fixed;
-  z-index: 2000;
+  z-index: 20000;
   display: block;
   position: absolute;
   top: 0;
