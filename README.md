@@ -97,5 +97,5 @@ FIXME
 ## Author
 
 * megane42
-    * https://twitter.com/tsdnm
+    * https://twitter.com/megane42
     * https://deresute.me/582302781
